@@ -22,9 +22,12 @@ Apply the filters using cv2.filter2D() for each respective filters.
 Plot the images of the original one and the filtered one using plt.figure() and cv2.imshow().
 
 ## Program:
-### Developed By   : v.charan sai
-### Register Number: 212221240061
+
 ~~~
+Developed By   : v.charan sai
+Register Number: 212221240061
+
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -126,20 +129,20 @@ plt.axis("off")
 </br>
 
 i) Using Averaging Filter
-![output]()
+![output](https://github.com/charansai0/Implementation-of-Filters/blob/main/00.png)
 ii) Using Weighted Averaging Filter
-![output]()
+![output](https://github.com/charansai0/Implementation-of-Filters/blob/main/11.png)
 iii) Using Gaussian Filter
-![output]()
+![output](https://github.com/charansai0/Implementation-of-Filters/blob/main/22.png)
 iv) Using Median Filter
-![output]()
+![output](https://github.com/charansai0/Implementation-of-Filters/blob/main/33.png)
 ### 2. Sharpening Filters
 </br>
 
 i) Using Laplacian Kernal
-![output]()
+![output](https://github.com/charansai0/Implementation-of-Filters/blob/main/44.png)
 
 ii) Using Laplacian Operator
-![output]()
+![output](https://github.com/charansai0/Implementation-of-Filters/blob/main/55.png)
 ## Result:
 Thus the filters are designed for smoothing and sharpening the images in the spatial domain.
